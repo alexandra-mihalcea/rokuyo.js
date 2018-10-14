@@ -1,7 +1,7 @@
 {
   "name": "rokuyo",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "This package returns the Rokuyo prediction for any gregorian calendar date.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,17 @@
   "dependencies": {
     "moment": "^2.22.2",
     "moment-lunar": "0.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandra-mihalcea/rokuyo.git"
+  },
+  "keywords": [
+    "rokuyo"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexandra-mihalcea/rokuyo/issues"
+  },
+  "homepage": "https://github.com/alexandra-mihalcea/rokuyo#readme"
 }
