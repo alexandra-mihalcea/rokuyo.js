@@ -4,7 +4,7 @@ const momentLunar = require('moment-lunar')
 
 
 module.exports.today = function() {
-     console.log(getRokuyoByDate(2040, 10, 21))
+     console.log(getRokuyoByDate(2018, 10, 14))
 }
 
 
@@ -25,6 +25,7 @@ function getRokuyoByDate(year, month, day){
 }
 
 function getRokuyoByMoment(date){
+    date = date.lunar()
     const day = date.date()
     const month = date.month() + 1
     const order = (day%6 - 1 + month%6 - 1 )%6
